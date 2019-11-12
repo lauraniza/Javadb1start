@@ -28,13 +28,8 @@ public class app {
     }
 
     public static Double menorDeTres (Double valor1, Double valor2, Double valor3) {
-        if (valor1 < valor2 && valor1 < valor3) {
-            return valor1;
-        } else if (valor2 < valor3) {
-            return valor2;
-        } else {
-            return valor3;
-        }
+        Double menor = menorDeDois(valor1,valor2);
+        return menorDeDois(menor, valor3);
     }
     public static void main (String[]args) {
         Scanner scan = new Scanner(System.in);
