@@ -30,6 +30,7 @@ public class app {
     public static Double menorDeTres (Double valor1, Double valor2, Double valor3) {
         return menorDeDois(menorDeDois(valor1, valor2),valor3);
     }
+
     public static void main (String[]args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Informe um número 1:");
