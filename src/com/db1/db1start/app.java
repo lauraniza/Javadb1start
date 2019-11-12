@@ -4,47 +4,37 @@ import java.util.Scanner;
 
 public class app {
     public static Integer soma (Integer valor1, Integer valor2) {
-        Integer resultado;
-        resultado = valor1 + valor2;
-        return resultado;
+        return valor1 + valor2;
     }
 
     public static Integer subtracao (Integer valor1, Integer valor2) {
-        Integer resultado;
-        resultado = valor1 - valor2;
-        return resultado;
+        return valor1 - valor2;
     }
 
     public static String maiusculo (String text) {
-        String textMaiusculo = (text.toUpperCase());
-        return textMaiusculo;
+        return text.toUpperCase();
     }
 
     public static String minusculo (String text) {
-        String textMinusculo = text.toLowerCase();
-        return textMinusculo;
+        return text.toLowerCase();
     }
 
     public static Double menorDeDois (Double valor1, Double valor2) {
-        Double resultado = null;
         if (valor1 > valor2) {
-            resultado = valor2;
-        } else if (valor2 > valor1) {
-            resultado = valor1;
+            return valor2;
+        } else {
+            return valor1;
         }
-        return resultado;
     }
 
     public static Double menorDeTres (Double valor1, Double valor2, Double valor3) {
-        Double resultado;
         if (valor1 < valor2 && valor1 < valor3) {
-            resultado = valor1;
+            return valor1;
         } else if (valor2 < valor3) {
-            resultado = valor2;
+            return valor2;
         } else {
-            resultado = valor3;
+            return valor3;
         }
-        return resultado;
     }
     public static void main (String[]args) {
         Scanner scan = new Scanner(System.in);
