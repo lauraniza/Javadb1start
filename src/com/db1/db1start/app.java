@@ -3,65 +3,69 @@ package com.db1.db1start;
 import java.util.Scanner;
 
 public class app {
-    public static void ex1Numero(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Digite um número:");
-        Integer numero1 = Integer.valueOf(scan.next());
-        System.out.println("Digite outro número:");
-        Integer numero2 = Integer.valueOf(scan.next());
-        System.out.println(numero1 + numero2);
+    public static Integer soma (Integer valor1, Integer valor2) {
+        Integer resultado;
+        resultado = valor1 + valor2;
+        return resultado;
     }
 
-    public static void ex2Numero(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Digite um número:");
-        Integer numero1 = Integer.valueOf(scan.next());
-        System.out.println("Digite outro número:");
-        Integer numero2 = Integer.valueOf(scan.next());
-        System.out.println(numero1 - numero2);
+    public static Integer subtracao (Integer valor1, Integer valor2) {
+        Integer resultado;
+        resultado = valor1 - valor2;
+        return resultado;
     }
 
-    public static void ex1String(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.printf("Informe uma frase em caracteres minúsculos:\n");
-        String text = scan.nextLine();
-        System.out.println(text.toUpperCase());
+    public static String maiusculo (String text) {
+        String textMaiusculo = (text.toUpperCase());
+        return textMaiusculo;
     }
 
-    public static void ex2String(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.printf("Informe uma frasecom caracteres maiúsculo e minúsculos:\n");
-        String text = scan.nextLine();
-        System.out.println(text.toLowerCase());
+    public static String minusculo (String text) {
+        String textMinusculo = text.toLowerCase();
+        return textMinusculo;
     }
 
-    public static void ex1Matematica(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Digite um valor:");
-        Double valor1 = scan.nextDouble();
-        System.out.println("Digite outro valor:");
-        Double valor2 = scan.nextDouble();
+    public static Double menorDeDois (Double valor1, Double valor2) {
+        Double resultado = null;
         if (valor1 > valor2) {
-            System.out.println("O menor valor é o 2");
+            resultado = valor2;
         } else if (valor2 > valor1) {
-            System.out.println("O menor valor é o 1");
+            resultado = valor1;
         }
+        return resultado;
     }
 
-    public static void ex2Matematica(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Digite um valor:");
-        Double valor1 = scan.nextDouble();
-        System.out.println("Digite outro valor:");
-        Double valor2 = scan.nextDouble();
-        System.out.println("Digite outro valor:");
-        Double valor3 = scan.nextDouble();
+    public static Double menorDeTres (Double valor1, Double valor2, Double valor3) {
+        Double resultado;
         if (valor1 < valor2 && valor1 < valor3) {
-            System.out.println("Menor valor é o 1");
+            resultado = valor1;
         } else if (valor2 < valor3) {
-            System.out.println("Menor valor é o 2");
+            resultado = valor2;
         } else {
-            System.out.println("Menor valor é o 3");
+            resultado = valor3;
         }
+        return resultado;
+    }
+    public static void main (String[]args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Informe um número 1:");
+        Integer numero1 = scan.nextInt();
+        scan.nextLine();
+        System.out.println("Informe outro número 2:");
+        Integer numero2 = scan.nextInt();
+        scan.nextLine();
+        System.out.println("A soma entre eles é: " + soma(numero1,numero2));
+        System.out.println("Agora informe uma frase:\n");
+        String texto = scan.nextLine();
+        System.out.println("Frase em maiúsculo: " + maiusculo(texto));
+        System.out.println("Frase em maiúsculo: " + minusculo(texto));
+        System.out.println("Digite mais três números;\nNúmero 1:");
+        Double doubl1 = scan.nextDouble();
+        System.out.println("Número 2:");
+        Double doubl2 = scan.nextDouble();
+        System.out.println("Número 3:");
+        Double doubl3 = scan.nextDouble();
+        System.out.println("O menor número dentre os dois primeiros informados é o número " + menorDeDois(doubl1,doubl2));
+        System.out.println("O menor número dentre os três informados é o número " + menorDeTres(doubl1,doubl2,doubl3));
     }
 }
