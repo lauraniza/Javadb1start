@@ -213,4 +213,12 @@ public class AppTeste {
         String[] response = application.separacao("banana, maçã, melancia");
         Assert.assertArrayEquals(expected, response);
     }
+
+    @Test
+    public void mustReturnQuantVog (){
+        Application application = new Application();
+        int expected = 6;
+        int result = application.numVogais("Laura NizaA");
+        Assert.assertEquals(expected, result);
+    }
 }

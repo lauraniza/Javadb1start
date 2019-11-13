@@ -43,23 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTeste.mustReturn7carcter">
-    <configuration name="AppTeste.mustReturn5impar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="db1start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.db1.db1start.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.db1.db1start" />
-      <option name="MAIN_CLASS_NAME" value="com.db1.db1start.AppTeste" />
-      <option name="METHOD_NAME" value="mustReturn5impar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AppTeste.mustReturnQuantVog">
     <configuration name="AppTeste.mustReturn7carc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1start" />
       <extension name="coverage">
@@ -108,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTeste.mustReturnSeparado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTeste.mustReturnQuantVog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1start" />
       <extension name="coverage">
         <pattern>
@@ -118,7 +102,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.AppTeste" />
-      <option name="METHOD_NAME" value="mustReturnSeparado" />
+      <option name="METHOD_NAME" value="mustReturnQuantVog" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTeste.mustReturntadeboa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="db1start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.db1.db1start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.db1.db1start" />
+      <option name="MAIN_CLASS_NAME" value="com.db1.db1start.AppTeste" />
+      <option name="METHOD_NAME" value="mustReturntadeboa" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTeste.mustReturnQuantVog" />
+        <item itemvalue="JUnit.AppTeste.mustReturntadeboa" />
         <item itemvalue="JUnit.AppTeste.mustReturn7carcter" />
         <item itemvalue="JUnit.AppTeste.mustReturn7carc" />
         <item itemvalue="JUnit.AppTeste.mustReturn8carcter" />
-        <item itemvalue="JUnit.AppTeste.mustReturnSeparado" />
-        <item itemvalue="JUnit.AppTeste.mustReturn5impar" />
       </list>
     </recent_temporary>
   </component>
@@ -159,5 +159,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/db1/db1start/app.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

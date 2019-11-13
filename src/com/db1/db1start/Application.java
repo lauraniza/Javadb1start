@@ -51,7 +51,7 @@ public class Application {
     }
 
     public Integer quantLetras (String text) {
-        return (text.replaceAll("[0-9]","").trim()).length();
+        return text.replaceAll("[0-9]","").trim().length();
     }
 
     public String semEspacos (String text) {
@@ -78,11 +78,8 @@ public class Application {
         return text.split(", ");
     }
 
-    /*public Integer numVogais (String text){
-        String vogais = "AEIOUaeiou";
-        for(Integer cont=0; cont < text.length(); cont++){
-            if(text.charAt(cont) == )
-        }
-    }*/
+    public Integer numVogais (String text){        //^negação
+        return text.toUpperCase().replaceAll("[^AEIOU]", "").length();
+    }
 
 }
