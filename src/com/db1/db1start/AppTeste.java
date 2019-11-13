@@ -149,4 +149,68 @@ public class AppTeste {
         String response = application.minusculo("ACABAndo ISso");
         Assert.assertEquals(expected, response);
     }
+
+    @Test
+    public void mustReturn7carcter() {
+        Application application = new Application();
+        Integer expected = 7;
+        Integer response = application.quantidadeLetras("DB1START");
+        Assert.assertEquals(expected, response);
+    }
+
+    @Test
+    public void mustReturn7carc() {
+        Application application = new Application();
+        Integer expected = 7;
+        Integer response = application.quantLetras(" DB1START ");
+        Assert.assertEquals(expected, response);
+    }
+
+    @Test
+    public void mustReturnwithOutEspaces() {
+        Application application = new Application();
+        String expected = "DB1START";
+        String response = application.semEspacos(" DB1START ");
+        Assert.assertEquals(expected, response);
+    }
+
+    @Test
+    public void mustReturnFirst4() {
+        Application application = new Application();
+        String expected = "Laur";
+        String response = application.primeiras4letras("Laura Pegini Niza");
+        Assert.assertEquals(expected, response);
+    }
+
+    @Test
+    public void mustReturnAfter2letter() {
+        Application application = new Application();
+        String expected = "ura Pegini Niza";
+        String response = application.apos2primeiras("Laura Pegini Niza");
+        Assert.assertEquals(expected, response);
+    }
+
+    @Test
+    public void mustReturnLast4() {
+        Application application = new Application();
+        String expected = "Niza";
+        String response = application.ultimas4("Laura Pegini Niza");
+        Assert.assertEquals(expected, response);
+    }
+
+    @Test
+    public void mustReturnAluno() {
+        Application application = new Application();
+        String expected = "aluna Pegini Niza";
+        String response = application.alunoNoNome("Laura Pegini Niza");
+        Assert.assertEquals(expected, response);
+    }
+
+    @Test
+    public void mustReturnSeparado() {
+        Application application = new Application();
+        String[] expected = new String[] {"banana", "maçã", "melancia"};
+        String[] response = application.separacao("banana, maçã, melancia");
+        Assert.assertArrayEquals(expected, response);
+    }
 }

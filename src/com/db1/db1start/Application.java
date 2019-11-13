@@ -35,20 +35,54 @@ public class Application {
     }
 
     public Integer nImpares (Integer valor) {
-        Integer quant = 0, cont;
-        for (cont=0; cont < valor; cont++) {
-            if (cont % 2 == 1) {
-                quant = quant + 1;
-            }
-        }
-        return quant;
+        return valor % 2 == 0 ? valor/2 : (valor+1)/2;
     }
 
-    public String maiusculo (String text){
+    public String maiusculo(String text){
         return text.toUpperCase();
     }
 
     public String minusculo (String text){
         return text.toLowerCase();
     }
+
+    public Integer quantidadeLetras (String text) {
+        return text.replaceAll("[0-9]","").length();
+    }
+
+    public Integer quantLetras (String text) {
+        return (text.replaceAll("[0-9]","").trim()).length();
+    }
+
+    public String semEspacos (String text) {
+        return text.trim();
+    }
+
+    public String primeiras4letras (String text){
+        return text.substring(0,4);
+    }
+
+    public String apos2primeiras (String text){
+        return text.substring(2);
+    }
+
+    public String ultimas4 (String text){
+        return text.substring(13);
+    }
+
+    public String alunoNoNome (String text){
+        return "aluna" + text.substring(5);
+    }
+
+    public String[] separacao (String text){
+        return text.split(", ");
+    }
+
+    /*public Integer numVogais (String text){
+        String vogais = "AEIOUaeiou";
+        for(Integer cont=0; cont < text.length(); cont++){
+            if(text.charAt(cont) == )
+        }
+    }*/
+
 }

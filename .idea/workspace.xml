@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf84f0b-ecdd-45db-b277-785eb7d6df9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/db1/db1start/AppTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/db1/db1start/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db1start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/db1start.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/AppTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/AppTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/Application.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +43,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTeste.mustReturnacabandoisso">
-    <configuration name="AppTeste.mustReturn1impar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AppTeste.mustReturn7carcter">
+    <configuration name="AppTeste.mustReturn5impar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1start" />
       <extension name="coverage">
         <pattern>
@@ -57,13 +54,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.AppTeste" />
-      <option name="METHOD_NAME" value="mustReturn1impar" />
+      <option name="METHOD_NAME" value="mustReturn5impar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTeste.mustReturnFUNCIONA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTeste.mustReturn7carc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1start" />
       <extension name="coverage">
         <pattern>
@@ -73,13 +70,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.AppTeste" />
-      <option name="METHOD_NAME" value="mustReturnFUNCIONA" />
+      <option name="METHOD_NAME" value="mustReturn7carc" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTeste.mustReturnJAVA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTeste.mustReturn7carcter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1start" />
       <extension name="coverage">
         <pattern>
@@ -89,13 +86,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.AppTeste" />
-      <option name="METHOD_NAME" value="mustReturnJAVA" />
+      <option name="METHOD_NAME" value="mustReturn7carcter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTeste.mustReturnacabandoisso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTeste.mustReturn8carcter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1start" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +102,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.AppTeste" />
-      <option name="METHOD_NAME" value="mustReturnacabandoisso" />
+      <option name="METHOD_NAME" value="mustReturn8carcter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTeste.mustReturntadeboa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTeste.mustReturnSeparado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1start" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +118,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.AppTeste" />
-      <option name="METHOD_NAME" value="mustReturntadeboa" />
+      <option name="METHOD_NAME" value="mustReturnSeparado" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTeste.mustReturnacabandoisso" />
-        <item itemvalue="JUnit.AppTeste.mustReturntadeboa" />
-        <item itemvalue="JUnit.AppTeste.mustReturnFUNCIONA" />
-        <item itemvalue="JUnit.AppTeste.mustReturnJAVA" />
-        <item itemvalue="JUnit.AppTeste.mustReturn1impar" />
+        <item itemvalue="JUnit.AppTeste.mustReturn7carcter" />
+        <item itemvalue="JUnit.AppTeste.mustReturn7carc" />
+        <item itemvalue="JUnit.AppTeste.mustReturn8carcter" />
+        <item itemvalue="JUnit.AppTeste.mustReturnSeparado" />
+        <item itemvalue="JUnit.AppTeste.mustReturn5impar" />
       </list>
     </recent_temporary>
   </component>
