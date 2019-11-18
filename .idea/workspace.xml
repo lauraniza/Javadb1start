@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf84f0b-ecdd-45db-b277-785eb7d6df9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/db1/db1start/ExerciciosRobson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/db1/db1start/TestandoListas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/ExerciciosRobson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/ExerciciosRobson.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
