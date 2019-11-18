@@ -11,7 +11,7 @@ public class ExerciciosRobson {
     }
 
     //Método que retorne os nomes das cores que você mais gosta
-    public List<String> coresFavoritas (){
+    public static List<String> coresFavoritas(){
         List<String> cores = new ArrayList<>();
         cores.addAll(Arrays.asList("Vermelho","Laranja","Amarelo","Azul"));
         return cores;
@@ -38,7 +38,7 @@ public class ExerciciosRobson {
     public static void coresOrdemAlfabetica (){
         List<String> cores = coresFavoritas();
         Collections.sort(cores);
-        cores().forEach(System.out::println);
+        cores.forEach(System.out::println);
     }
 
     //Método que receba uma lista das cores que você mais gosta e o nome de uma cor a ser removida
@@ -51,7 +51,7 @@ public class ExerciciosRobson {
     public static void coresDecrescente (){
         List<String> cores = coresFavoritas();
         Collections.sort(cores, Collections.reverseOrder());
-        cores().forEach(System.out::println);
+        cores.forEach(System.out::println);
     }
 
     //Método que receba uma lista de números e retorne um mapa com listas de números pares e impares
