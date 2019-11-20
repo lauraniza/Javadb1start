@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf84f0b-ecdd-45db-b277-785eb7d6df9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/AlunoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/AulaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/MateriaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/ProfessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/Aluno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/Aula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/Aula.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/Materia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/Materia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/Professor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/Professor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Aluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Aula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Aula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Materia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Materia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/AulaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/AulaTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,26 +45,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.AulaTest.deveCriarAulaPorMeioDoConstrutor">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.App" />
       <module name="db1start" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.db1.geranciadorAulas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExerciciosSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.db1.db1start.ExerciciosSet" />
-      <module name="db1start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.db1.db1start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,6 +75,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AulaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="db1start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.db1.geranciadorAulas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.db1.geranciadorAulas" />
+      <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.AulaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AulaTest.deveCriarAulaPorMeioDoConstrutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="db1start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.db1.geranciadorAulas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.db1.geranciadorAulas" />
+      <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.AulaTest" />
+      <option name="METHOD_NAME" value="deveCriarAulaPorMeioDoConstrutor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MateriaTest.deveCriarMateriaPorMeioDoConstrutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1start" />
       <extension name="coverage">
@@ -117,29 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProfessorTest.deveCriarProfessorPorMeioDoConstrutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="db1start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.db1.geranciadorAulas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.db1.geranciadorAulas" />
-      <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.ProfessorTest" />
-      <option name="METHOD_NAME" value="deveCriarProfessorPorMeioDoConstrutor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AulaTest.deveCriarAulaPorMeioDoConstrutor" />
+        <item itemvalue="JUnit.AulaTest" />
+        <item itemvalue="JUnit.AlunoTest.deveCriarAlunoPorMeioDoConstrutor" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.MateriaTest.deveCriarMateriaPorMeioDoConstrutor" />
-        <item itemvalue="JUnit.ProfessorTest.deveCriarProfessorPorMeioDoConstrutor" />
-        <item itemvalue="JUnit.AlunoTest.deveCriarAlunoPorMeioDoConstrutor" />
-        <item itemvalue="Application.ExerciciosSet" />
       </list>
     </recent_temporary>
   </component>

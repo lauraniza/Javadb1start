@@ -9,6 +9,12 @@ public class Aula {
     public Materia materia;
     public List<Aluno> alunos;
 
+    public Aula(Date data, Materia materia, List<Aluno> alunos) {
+        this.data = data;
+        this.materia = materia;
+        this.alunos = alunos;
+    }
+
     public Date getData() {
         return data;
     }

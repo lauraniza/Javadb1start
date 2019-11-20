@@ -2,6 +2,7 @@ package com.db1.geranciadorAulas;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class App {
     public static void main(String[] args) {
@@ -18,7 +19,9 @@ public class App {
         materia.quantidadeAulas = 3;
         materia.professor = professor;
 
-        Aula aula1 = new Aula();
+        Date data = new Date();
+        List<Aluno> alunos = new ArrayList<>();
+        Aula aula1 = new Aula(data,materia,alunos);
         aula1.data = new Date();
         aula1.materia = materia;
         aula1.alunos = new ArrayList<Aluno>();
