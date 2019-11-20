@@ -13,6 +13,16 @@ public class Aula {
         this.data = data;
         this.materia = materia;
         this.alunos = alunos;
+
+        if(data == null){
+            throw new CampoNaoNulo("Data não pode ser nula.");
+        }
+        if(materia == null){
+            throw new CampoNaoNulo("Materia não pode ser nula.");
+        }
+        if(alunos == null){
+            throw new CampoNaoNulo("Alunos não podem ser nulos.");
+        }
     }
 
     public Date getData() {

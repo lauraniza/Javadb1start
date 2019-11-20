@@ -8,7 +8,16 @@ public abstract class Pessoa {
     public Pessoa(String nome, String email) {
         this.nome = nome;
         this.email = email;
+
+        if(email == null){
+            throw new CampoNaoNulo("Email não pode ser nulo.");
+        }
+        if(nome == null){
+            throw new CampoNaoNulo("Nome não pode ser nulo.");
+        }
     }
+
+    public Pessoa() {}
 
     public String getNome(){
         return nome;

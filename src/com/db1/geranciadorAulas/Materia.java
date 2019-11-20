@@ -16,9 +16,25 @@ public class Materia {
         this.cargaHoraria = cargaHoraria;
         this.quantidadeAulas = quantidadeAulas;
         this.professor = professor;
+
+        if(nome == null){
+            throw new CampoNaoNulo("Nome não pode ser nulo.");
+        }
+        if(descricao == null){
+            throw new CampoNaoNulo("Descrição não pode ser nula.");
+        }
+        if(cargaHoraria == null){
+            throw new CampoNaoNulo("Carga horária não pode ser nula.");
+        }
+        if(quantidadeAulas == null){
+            throw new CampoNaoNulo("Quantidade de aulas não pode ser nula.");
+        }
+        if(professor == null){
+            throw new CampoNaoNulo("Professor não pode ser nulo.");
+        }
     }
 
-    public Materia() {    }
+    public Materia() { }
 
     public String getNome() {
         return nome;

@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf84f0b-ecdd-45db-b277-785eb7d6df9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/CampoNaoNulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/AlunoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/AlunoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Aula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Aula.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/AulaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/AulaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Materia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Materia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/MateriaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/MateriaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/ProfessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/ProfessorTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,68 +50,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AulaTest.deveCriarAulaPorMeioDoConstrutor">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.App" />
-      <module name="db1start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.db1.geranciadorAulas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlunoTest.deveCriarAlunoPorMeioDoConstrutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="db1start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.db1.geranciadorAulas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.db1.geranciadorAulas" />
-      <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.AlunoTest" />
-      <option name="METHOD_NAME" value="deveCriarAlunoPorMeioDoConstrutor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AulaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="db1start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.db1.geranciadorAulas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.db1.geranciadorAulas" />
-      <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.AulaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AulaTest.deveCriarAulaPorMeioDoConstrutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="db1start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.db1.geranciadorAulas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.db1.geranciadorAulas" />
-      <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.AulaTest" />
-      <option name="METHOD_NAME" value="deveCriarAulaPorMeioDoConstrutor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MateriaTest.deveCriarMateriaPorMeioDoConstrutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProfessorTest.deveJogarExcepitionComNomeNulo">
+    <configuration name="MateriaTest.deveJogarExcepitionComCargaHorariaNulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1start" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +61,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.geranciadorAulas" />
       <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.MateriaTest" />
-      <option name="METHOD_NAME" value="deveCriarMateriaPorMeioDoConstrutor" />
+      <option name="METHOD_NAME" value="deveJogarExcepitionComCargaHorariaNulo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MateriaTest.deveJogarExcepitionComProfessorNulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="db1start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.db1.geranciadorAulas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.db1.geranciadorAulas" />
+      <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.MateriaTest" />
+      <option name="METHOD_NAME" value="deveJogarExcepitionComProfessorNulo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MateriaTest.deveJogarExcepitionComQuantidadeAulasNulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="db1start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.db1.geranciadorAulas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.db1.geranciadorAulas" />
+      <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.MateriaTest" />
+      <option name="METHOD_NAME" value="deveJogarExcepitionComQuantidadeAulasNulo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfessorTest.deveJogarExcepitionComEmailNulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="db1start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.db1.geranciadorAulas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.db1.geranciadorAulas" />
+      <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.ProfessorTest" />
+      <option name="METHOD_NAME" value="deveJogarExcepitionComEmailNulo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfessorTest.deveJogarExcepitionComNomeNulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="db1start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.db1.geranciadorAulas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.db1.geranciadorAulas" />
+      <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.ProfessorTest" />
+      <option name="METHOD_NAME" value="deveJogarExcepitionComNomeNulo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AulaTest.deveCriarAulaPorMeioDoConstrutor" />
-        <item itemvalue="JUnit.AulaTest" />
-        <item itemvalue="JUnit.AlunoTest.deveCriarAlunoPorMeioDoConstrutor" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.MateriaTest.deveCriarMateriaPorMeioDoConstrutor" />
+        <item itemvalue="JUnit.ProfessorTest.deveJogarExcepitionComNomeNulo" />
+        <item itemvalue="JUnit.ProfessorTest.deveJogarExcepitionComEmailNulo" />
+        <item itemvalue="JUnit.MateriaTest.deveJogarExcepitionComProfessorNulo" />
+        <item itemvalue="JUnit.MateriaTest.deveJogarExcepitionComQuantidadeAulasNulo" />
+        <item itemvalue="JUnit.MateriaTest.deveJogarExcepitionComCargaHorariaNulo" />
       </list>
     </recent_temporary>
   </component>
