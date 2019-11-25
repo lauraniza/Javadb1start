@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args){
        Cliente cliente = new Cliente("84313099972","Paulo Rodolpho Borin Niza");
        Agencia agencia = new Agencia("0773", "0","PR","Mandaguaçu");
-       ContaCorrente contaCorrente = new ContaCorrente(agencia, "16556","5","cliente", saldo);
+       ContaCorrente contaCorrente = new ContaCorrente(agencia, "16556","5",cliente);
 
        try{
            contaCorrente.sacar(2000.0);

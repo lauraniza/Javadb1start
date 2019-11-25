@@ -10,6 +10,13 @@ public class ContaCorrente {
     private Double saldo;
     private List<Movimentacao> movimentacao;
 
+    public ContaCorrente(Agencia agencia, String numero, String digito, Cliente cliente) {
+        this.agencia = agencia;
+        this.numero = numero;
+        this.digito = digito;
+        this.cliente = cliente;
+    }
+
     public void depositar (Double valor){
         if(valor==null){
             throw new RuntimeException("");
