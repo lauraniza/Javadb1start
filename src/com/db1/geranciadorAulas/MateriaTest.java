@@ -90,4 +90,18 @@ public class MateriaTest {
             Assert.assertEquals("Professor não pode ser nulo.", naoPodeSerNulo.getMessage());
         }
     }
+
+    @Test
+    public void deveTrocarDeProfessor() {
+        Professor professor1 = new Professor("igor.silva@db1.com.br", "Igor");
+        Professor professor2 = new Professor("professor@db1.com.br", "Professor");
+
+        Materia materia = new Materia("Java", "POO", 10.5, 3, professor1);
+
+        Assert.assertEquals(professor1, materia.getProfessor());
+
+        materia.trocaProfessor(professor2);
+
+        Assert.assertEquals(professor2, materia.getProfessor());
+    }
 }

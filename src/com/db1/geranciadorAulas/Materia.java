@@ -66,4 +66,8 @@ public class Materia {
                 ", professor=" + professor +
                 '}';
     }
+
+    public void trocaProfessor(Professor professor) {
+        this.professor = professor;
+    }
 }

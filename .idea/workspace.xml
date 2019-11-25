@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf84f0b-ecdd-45db-b277-785eb7d6df9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/CampoNaoNulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/db1/cc/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/db1/cc/Deposito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/db1/cc/Extrato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/db1/cc/Movimentacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/db1/cc/Saque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/db1/cc/Tranferencia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/AlunoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/AlunoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Aula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Aula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/AulaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/AulaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/Materia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/Materia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/MateriaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/db1start/com/db1/geranciadorAulas/MateriaTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Materia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Materia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/MateriaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/MateriaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/ProfessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/ProfessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/geranciadorAulas/Professor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,19 +53,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProfessorTest.deveJogarExcepitionComNomeNulo">
-    <configuration name="MateriaTest.deveJogarExcepitionComCargaHorariaNulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.db1.cc.App" />
       <module name="db1start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.db1.geranciadorAulas.*" />
+          <option name="PATTERN" value="com.db1.cc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.db1.geranciadorAulas" />
-      <option name="MAIN_CLASS_NAME" value="com.db1.geranciadorAulas.MateriaTest" />
-      <option name="METHOD_NAME" value="deveJogarExcepitionComCargaHorariaNulo" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.ProfessorTest.deveJogarExcepitionComNomeNulo" />
         <item itemvalue="JUnit.ProfessorTest.deveJogarExcepitionComEmailNulo" />
         <item itemvalue="JUnit.MateriaTest.deveJogarExcepitionComProfessorNulo" />
         <item itemvalue="JUnit.MateriaTest.deveJogarExcepitionComQuantidadeAulasNulo" />
-        <item itemvalue="JUnit.MateriaTest.deveJogarExcepitionComCargaHorariaNulo" />
       </list>
     </recent_temporary>
   </component>
